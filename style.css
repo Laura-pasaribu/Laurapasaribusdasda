@@ -1,0 +1,67 @@
+/* Style untuk navbar */
+.navbar {
+    background-color: #3D1259; /* Warna latar belakang navbar */
+    padding: 10px;
+  }
+  
+  /* Style untuk daftar navigasi */
+  .nav {
+    list-style-type: none; /* Menghilangkan bullet pada daftar navigasi */
+    margin: 0; /* Menghilangkan margin luar pada daftar navigasi */
+    padding: 0;/* Menghilangkan padding pada daftar navigasi */
+    text-align:right;
+  }
+  
+  /* Style untuk setiap elemen navigasi */
+  .nav-item {
+    display: inline-block; /* Menjadikan elemen navigasi sebagai inline block */
+    margin-right: 10px; /* Memberikan margin kanan antar elemen navigasi */
+    
+  }
+  
+  /* Style untuk tautan navigasi yang aktif */
+  .nav-link.active {
+    color: #ffffff; /* Warna teks untuk tautan yang aktif */
+    text-decoration: underline; /* Memberikan garis bawah pada tautan yang aktif */
+  }
+  
+  /* Style untuk tautan navigasi yang non-aktif */
+  .nav-link {
+    color: #ffffff; /* Warna teks untuk tautan non-aktif */
+    text-decoration: none; /* Menghilangkan dekorasi tautan non-aktif */
+  }
+  
+  /* Style untuk tautan navigasi yang dinonaktifkan */
+  .nav-link.disabled {
+    color: #7f8c8d; /* Warna teks untuk tautan yang dinonaktifkan */
+    pointer-events: none; /* Menonaktifkan interaksi pengguna pada tautan yang dinonaktifkan */
+  }
+img {
+    width: 440px;
+    height: 96px;
+}
+/* Style untuk container */
+.container {
+    max-width: 960px; /* Mengatur lebar maksimum container */
+    margin: 0 auto; /* Mengatur margin kiri dan kanan agar container berada di tengah */
+  }
+  
+  /* Style untuk membuat kolom menjadi flex container */
+  .row {
+    display: flex;
+    justify-content: center; /* Mengatur agar kolom berada di tengah secara horizontal */
+    margin-bottom: 20px; /* Menambahkan margin bawah antar baris */
+  }
+  
+  /* Style untuk kolom di dalam row */
+  .col {
+    flex: 1; /* Mengatur agar kolom mendapatkan bagian yang sama dari ruang yang tersedia */
+    padding: 10px; /* Menambahkan padding di dalam kolom */
+    border: 1px solid #ddd; /* Menambahkan border untuk memberikan garis antar kolom */
+  }
+  
+  /* Style tambahan untuk teks di dalam kolom */
+  .col {
+    text-align: center;
+  }
+  
