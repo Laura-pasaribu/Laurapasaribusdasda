@@ -175,3 +175,109 @@ button {
 }
 
 
+/* Menambahkan beberapa gaya dasar untuk dropdown */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Gaya untuk dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 0;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f4f4f4;
+}
+
+/* Menampilkan dropdown menu saat tombol diklik */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.judul {
+    width: 25%;
+}
+
+.gambarpengumuman img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Deskripsi p{
+    width:300px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-button {
+    background-color:red;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.Update-button {
+    background-color:#007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.Update-button:hover,
+.delete-button:hover {
+    background-color: #0056b3;
+}
+
+.edit-icon,
+.delete-icon {
+    display: flex;
+    align-items: center;
+}
+
+.edit-icon i,
+.delete-icon i {
+    margin-right: 5px;
+}
+
