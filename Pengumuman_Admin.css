@@ -1,0 +1,177 @@
+/* Style untuk tata letak halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr; /* Membagi halaman menjadi dua bagian */
+    height: 100vh; /* Menggunakan tinggi layar penuh */
+}
+
+.left-section {
+    background-color: #6a0dad; /* Background ungu */
+    padding: 20px;
+}
+
+/* Style untuk icon */
+.icon-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40%; 
+}
+.icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 35px;
+    right: 50px;
+    margin-top: 20px;
+}
+
+/* Style untuk tombol */
+
+button {
+    background-color:lawngreen;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-group button {
+    cursor: pointer;
+    font-size: 20px; /* Mengatur ukuran teks pada tombol */
+    font-weight: bold;
+}
+
+
+/* Grupkan dua bagian tombol */
+.button-group-group {
+    display: flex;
+    flex-direction: column; /* Mengatur agar dua grup berada dalam satu kolom */
+}
+
+/* Untuk dua tombol pertama (Pengumuman dan Program Pendidikan) */
+.button-group:nth-child(1) {
+    display: flex;
+    flex-direction: row; /* Mengatur agar tombol-tombol berada dalam satu baris */
+    justify-content: space-between; /* Memberikan jarak antar tombol */
+    align-items: center; /* Memusatkan tombol-tombol secara vertikal */
+    margin-bottom: 20px; /* Memberi jarak antara dua grup tombol */
+}
+
+/* Untuk dua tombol kedua (Lembaga dan Fasilitas) */
+.button-group:nth-child(2) {
+    display: flex;
+    flex-direction: row; /* Mengatur agar tombol-tombol berada dalam satu baris */
+    justify-content: space-between; /* Memberikan jarak antar tombol */
+    align-items: center; /* Memusatkan tombol-tombol secara vertikal */
+}
+
+.button-group button {
+    width: calc(48% - 10px); /* Mengatur lebar agar dua tombol berdampingan */
+    margin-bottom: 0; /* Menghapus margin bawah pada tombol */
+}
+
+/* CSS sebelumnya */
+
+.right-section {
+    padding: 40px;
+}
+
+/* Style untuk bagian header dengan logo dan tulisan */
+.header {
+    text-align: left;
+    
+}
+
+.logo {
+    width: 300px; /* Sesuaikan ukuran logo */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Style untuk tulisan "Selamat Datang" */
+.header h4 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.dropdown{
+    margin-top: 15px;
+    color: darkgrey;
+}
+.search-bar button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #451773;
+    color: #fff;
+    cursor: pointer;
+    grid-column: 2;
+    margin-left: 5px;
+}
+.search-bar {
+    display:grid;
+    grid-template-columns: auto;
+    justify-content: end;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 200px; /* Sesuaikan lebar sesuai kebutuhan */
+    grid-column: 1;
+}
+.judul p{
+    width: 200px;
+    font-size: 14px;
+}
+.gambarpengumuman img {
+    width: 150px;
+    height:100px;
+    margin-top: 10px;
+}
+.Deskripsi p{
+    font-size: 14px;
+    width: 200px;
+}
+.gambarpengumuman {
+    width: 200px;
+}
+.table {
+    margin-top: 38px;
+}
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.delete-button{
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Update-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.icon i {
+    color: #fff;
+    font-size: 25px
+}
+.text p {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+

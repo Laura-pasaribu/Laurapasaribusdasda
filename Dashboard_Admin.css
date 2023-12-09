@@ -1,0 +1,122 @@
+/* Style untuk tata letak halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr; /* Membagi halaman menjadi dua bagian */
+    height: 100vh; /* Menggunakan tinggi layar penuh */
+}
+
+.left-section {
+    background-color: #6a0dad; /* Background ungu */
+    padding: 20px;
+}
+
+/* Style untuk icon */
+.icon-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40%; 
+}
+
+.icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 35px;
+    right: 50px;
+    margin-top: 20px;
+    color: #fff;
+}
+.icon i {
+    color: #fff;
+    font-size: 25px
+}
+
+/* Style untuk tombol */
+
+button {
+    padding: 40px 8px;
+    border: none;
+    background-color: #048ABF;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.button-group button {
+    cursor: pointer;
+    font-size: 20px; /* Mengatur ukuran teks pada tombol */
+    font-weight: bold;
+}
+
+
+/* Grupkan dua bagian tombol */
+.button-group-group {
+    display: flex;
+    flex-direction: column; /* Mengatur agar dua grup berada dalam satu kolom */
+}
+
+/* Untuk dua tombol pertama (Pengumuman dan Program Pendidikan) */
+.button-group:nth-child(1) {
+    display: flex;
+    flex-direction: row; /* Mengatur agar tombol-tombol berada dalam satu baris */
+    justify-content: space-between; /* Memberikan jarak antar tombol */
+    align-items: center; /* Memusatkan tombol-tombol secara vertikal */
+    margin-bottom: 20px; /* Memberi jarak antara dua grup tombol */
+}
+
+/* Untuk dua tombol kedua (Lembaga dan Fasilitas) */
+.button-group:nth-child(2) {
+    display: flex;
+    flex-direction: row; /* Mengatur agar tombol-tombol berada dalam satu baris */
+    justify-content: space-between; /* Memberikan jarak antar tombol */
+    align-items: center; /* Memusatkan tombol-tombol secara vertikal */
+}
+
+.button-group button {
+    width: calc(48% - 10px); /* Mengatur lebar agar dua tombol berdampingan */
+    margin-bottom: 0; /* Menghapus margin bawah pada tombol */
+}
+
+/* CSS sebelumnya */
+
+.right-section {
+    padding: 40px;
+}
+
+/* Style untuk bagian header dengan logo dan tulisan */
+.header {
+    text-align: left;
+    
+}
+
+.logo {
+    width: 300px; /* Sesuaikan ukuran logo */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Style untuk tulisan "Selamat Datang" */
+.header p {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.text p {
+    
+    font-size: 13px;
+    margin-top: 5px;
+}
+.bisa i{
+    color: #fff;
+}
+.su p{
+    color: #fff;
+}
+
+

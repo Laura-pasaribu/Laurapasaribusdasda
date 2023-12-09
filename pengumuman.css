@@ -23,12 +23,7 @@
   font-weight: bold;
   margin-top: 40px;
 }
-.conten{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 20px;
-}
+
 .facility-card{
   width: 300px;
   margin: 20px;
@@ -86,11 +81,10 @@ body {
   margin-right: 80px;
 }
 
-.purple-header nav ul li a{
+.purple-header nav ul li a {
   color: #fff;
   text-decoration: none;
   padding: 5px;
-
 }
 .purple-header nav ul li .sayur:hover{
   color:rgb(255, 217, 0);
@@ -208,76 +202,23 @@ footer {
 .social-media:nth-child(3) {
   margin-top: 20px; /* Adjust the spacing between Instagram and YouTube */
 }
-.facility img{
-  margin-top: 30px;
-  width: 240px;
-  height: 230px;
-} 
-.facility-in{
-  margin-left:55px;
-  margin-top: 30px;
-  width: 400px;
-  height: 230px;
+.saya{
+  margin-left: 38px;
+  margin-right: 38px
 }
-
-.facility-yey h4{
-  width: 50px;
-  height: 13px;
+.saya img {
+  width: 500px;
+  height: 300px;
+  margin-left: 45px;
+}
+.saya h4{
   font-weight: bold;
   margin-top: 38px;
 }
-.facility-yey p{
-  width: 220px;
-  height: 65px;
-  margin-top: 15px;
-}
-.facility h4{
-  margin-top: 30px;
-  width: 507px;
-  height: 90px;
-  font-weight: bold;
-}
-.facility p{
-  width: 507px;
-  height: 90px;
-}
-.facility-p h4{
-  margin-top: 30px;
-  width: 257px;
-  height: 57px;
+.title h4{
   font-weight: bold;
   text-align: center;
-}
-.facility-p p{
-  width: 257px;
-  height: 57px;
-  text-align: center;
-}
-.bisa img{
-  width: 100px;
-  height: 110px;
-  margin-left:75px;
-}
-.facility-in img{
-  width: 400px;
-  height: 250px;
-}
-.pengumuman img{
-  width: 350px;
-  height: 250px;
-}
-.pengumuman h4{
-  margin-top: 30px;
-  font-weight: bold;
-}
-.pengumuman1 img{
-  margin-top: 70px;
-  width: 350px;
-  height: 250px;
-}
-.facility-text{
-  width: 1030px;
-  text-align:justify;
+  margin-top: 38px;
 }
 /* Styles untuk layar kecil (mobile) */
 @media only screen and (max-width: 768px) {
@@ -333,3 +274,6 @@ footer {
     margin-top: 10px;
   }
 }
+
+
+

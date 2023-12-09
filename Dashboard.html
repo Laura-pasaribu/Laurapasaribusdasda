@@ -1,52 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Institut Teknologi Del</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery.min"></script>
+  <meta charset="UTF-8">
+  <title>Institut Teknologi Del</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <div class="navbar">
-        <img src ="logo_del.png" alt="logo del">
-        <ul class="nav nav-underline">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pengumuman</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Program Pendidikan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Lembaga</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Fasilitas</a>
-            </li>
-          </ul>
+  <div class="white-header">
+    <img src="Logo Del.png" alt="Logo">
+    <div class="search-bar">
+        <input type="text" placeholder="Search">
+        <button type="submit">Search</button>
     </div>
-    <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            1 of 2
-          </div>
-          <div class="col">
-            2 of 2
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            1 of 3
-          </div>
-          <div class="col">
-            2 of 3
-          </div>
-          <div class="col">
-            3 of 3
-          </div>
+</div>
+<header class="purple-header">
+    <nav>
+        <ul>
+            <li>
+              <a class="sayuractive"  href="Dashboard.html">Dashboard</a>
+            </li>
+            <li><a class="sayur" href="Pengumuman.html">Pengumuman</a></li>
+            <li><a class="sayur" href="ProgramPendidikan.html">Program pendidikan</a></li>
+            <li><a class="sayur" href="Fasilitas.html"> Fasilitas</a></li>
+            <li><a class="sayur" href="Lembaga.html">Lembaga</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="carouselExampleCaptions" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="del.jpg" class="d-block w-100" alt="del">
+      <div class="carousel-caption d-none d-md-block full-width-background background">
+      <h5>Dies Natalis ke X Fakultas Informatika dan Teknik Elektro IT Del</h5>
+      <p>Pada hari jumat 20 oktober 2023, Fakultas Informatika dan Teknik ELektro (FITE) mengadakan kegiatan Penguatan Organisasi Dosen dan Staff FITE dalam rangka FITE
+        ke-10 Tahun.[..]
+      </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+        <img src="del_gibran.jpg" class="d-block w-100" alt="del_gibran">
+        <div class="carousel-caption d-none d-md-block  background">
+          <h5>Bapak Gibran Rakabuming Raka Beri Kuliah Umum kepada Mahasiswa IT Del terkait "Pemimpin Milenial"</h5>
+          <p>Pada Hari Sabtu, 18 November 2023 Institut Teknologi Del menerima kunjungan Bapak Gibran Rakabuming Raka, sekaligus menjadi pembicara pada Kuliah Umum dengan topik 
+            "Pemimpin Milenial" kepada Mahasiswa/i Institut Teknologi Del.[..]</p>
         </div>
       </div>
+      <div class="carousel-item">
+        <img src="expo.jpg" class="d-block w-100" alt="expo">
+        <div class="carousel-caption d-none d-md-block background">
+          <h5>IT Del Ikuti Kegiatan KMI EXPO XIV di Bali Hingga Terima Penghargaan Pendamping Terbaik</h5>
+          <p>Pada tanggal 15-17 November 2023, Institut Teknologi Del turut serta mengikuti kegiatan kompetisi KMI EXPO XIV 2023 yang diselenggarakan oleh Belmawa di Universitas 
+            Pendidikan Ganesha, Singaraja Bali. KMI EXPO merupakan [..]</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div class="conten">
+  <div class="facility">
+    <img src="terakreditasi.png" class="card-img-top" alt="del">
+  </div>
+  <div class="facility">
+    <h4> Informasi PMB Jalur SertifikatUjian Tulis Berbasis Komputer (Sertifikat UTBK) 2023/2024 & Jadwal Pelaksanaan Kegiatan</h4>
+    <p>Sertifikat UTBK adalah salah satu jalur penerimaan mahasiswa baru yang diselenggarakan oleh Institut Teknologi Del (IT Del), 
+      melalui sertifikat UTBK yang diselenggarakan oleh Lembaga Tes Masuk Perguruan Tinggi Negeri (LTMPT).
+    </p>
+    <button class="btn btn-primary" type="submit">Selengkapnya</button>
+  </div>
+  <div class="facility">
+    <img src="PMB.png" class="card-img-top" alt="del">
+  </div>
+  <div class="facility-p">
+    <h4>INFORMASI PENDAFTARAN</h4>
+    <p>SELEKSI PENERIMAAN MAHASISWA BARU</p>
+    <a href="http://spmb.del.ac.id/" target="_blank" class="bisa">
+      <img src="logo_penerimaan.png" alt="logo penerimaan mahasiswa baru">
+    </a>
+  </div>
+  <div class="facility-in">
+    <img src="inagurasi.jpg" class="card-img-top" alt="del">
+  </div>
+  <div class="facility-yey">  
+    <h4>PENGUMUMAN</h4>
+    <p>Wisuda 398 Lulusan Institut Teknologi Del 25th September 2023</p>
+    <button class="btn btn-primary" type="submit">Selengkapnya</button>
+  </div>
+</div>
+  <div class="asilitas-title">
+    <h1>Berita Terkini</h1>
+  </div>
+    <div class="conten">
+      <div class="facility-card">
+        <img src="del.jpg" class="card-img-top" alt="del">
+        <p class="card-text">IT Del Menjadi Tuan Rumah 29th IEEE ICT Conference</p>
+      </div>
+      <div class="facility-card">
+        <img src="Gamabar2.jpg" class="card-img-top" alt="del">
+        <p class="card-text">Sosialisasi Data Diri untuk PDDikti dan Peraturan Kampus kepada Mahasiswa Angkatan 2023</p>
+      </div>
+      <div class="facility-card">
+        <img src="Gambar3.jpg" class="card-img-top" alt="del">
+        <p class="card-text">399 Mahasiswa IT Del Mengikuti Retreat untuk Meningkatkan Karakter 3M (MarTuhan,Marroha,Marbisuk)</p>
+      </div>
+      <div class="facility-card">
+        <img src="Gambar4.jpg" class="card-img-top" alt="del">
+        <p class="card-text">Rapat Koordinasi Keluarga Mahasiswa Organisasi IT Del Periode 2023/2024</p>
+      </div>
+      <div class="facility-card">
+        <img src="Gambar5.jpg" class="card-img-top" alt="del">
+        <p class="card-text">Dies Natalis ke X Fakultas Informatika dan Teknik Elektro IT Del</p>
+      </div>
+      <div class="facility-card">
+        <img src="Gambar6.jpg" class="card-img-top" alt="del">
+        <p class="card-text">Evaluasi Kurikulum Program Studi Manajemen Rekayasa</p>
+      </div>
+  </div>
+  <footer>
+    <div class="footer-sections">
+      <div class="footer-text">
+        <p>CONTACT US </p>
+        <p>Institut Teknologi Del</p>
+        <p>Jl. Sisingamangaraja, Sitoluama</p>
+        <p>Laguboti, Toba Samosir</p>
+        <p>Sumatera Utara, Indonesia</p>
+        <p>Kode Pos: 22381</p>
+        <p>Telp: +62 632 331234</p>
+        <P>Fax: +62 632 331116</p>
+      </div>
+      <div class="footer-section">
+        <p>LATEST TWEETS</p>
+        <p>No Twitter messages.</p>
+        <img src="twitter.jpeg" alt="Twitter">
+      </div>
+      <div class="rivka">
+        <p>FIND US ON</p>
+        <div class="social-media">
+          <img src="Facebook.png" alt="Facebook">
+        </div>
+        <div class="social-media">
+          <img src="Instagram.png" alt="Instagram">
+        </div>
+        <div class="social-media">
+          <img src="youtube.png" alt="youtube">
+        </div>
+        </div>
+        <div class="lala">
+          <p>Facebook</p> 
+        </div>
+        <div class="lalas">
+          <p>Instagram</p>  
+        </div>
+        <div class="las">
+          <p>YouTube</p> 
+        </div>
+      </div>
+  </footer>
 </body>
 </html>
